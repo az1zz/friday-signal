@@ -1,0 +1,261 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Friday Signal — Oct 30 – Nov 5, 2026</title>
+<style>
+:root{--bg:#07070d;--card:#0f1020;--line:#ffffff17;--tx:#e9eaff;--mut:#9a9cc4}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--tx);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-1;background:
+ radial-gradient(60vw 40vw at 85% -10%,#7c5cff33,transparent 60%),
+ radial-gradient(50vw 40vw at -10% 20%,#00e0ff22,transparent 60%),
+ radial-gradient(45vw 35vw at 60% 110%,#ff4d8d22,transparent 60%)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px 80px}
+nav{position:sticky;top:0;z-index:5;backdrop-filter:blur(14px);background:#07070dcc;border-bottom:1px solid var(--line)}
+nav .in{max-width:1040px;margin:auto;padding:10px 20px;display:flex;gap:18px;overflow-x:auto;white-space:nowrap;font-size:13px}
+nav a{color:var(--mut);text-decoration:none;font-weight:600;letter-spacing:.04em}nav a:hover{color:#fff}
+nav .brand{color:#fff;margin-right:auto;font-weight:800}
+header.hero{padding:56px 0 30px;display:grid;grid-template-columns:1fr 190px;gap:24px;align-items:center}
+.kicker{color:#00e0ff;font-weight:700;letter-spacing:.22em;font-size:12px}
+h1{font-size:clamp(38px,8vw,76px);line-height:1;margin:10px 0 14px;letter-spacing:-.03em;font-weight:900;
+ background:linear-gradient(100deg,#fff 10%,#b9a8ff 50%,#00e0ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{color:var(--mut);max-width:560px}
+.gauge{width:100%;filter:drop-shadow(0 0 24px #7c5cff66)}
+.gnum{fill:#fff;font:800 34px system-ui}.glbl{fill:#9a9cc4;font:700 9px system-ui;letter-spacing:.18em}
+.gring{animation:fill 1.6s ease-out}@keyframes fill{from{stroke-dasharray:0 326.7}}
+.tldr{background:linear-gradient(135deg,#7c5cff22,#00e0ff14);border:1px solid var(--line);border-radius:20px;padding:20px 24px;margin:10px 0 8px}
+.tldr h2{font-size:13px;letter-spacing:.2em;color:#00e0ff;margin-bottom:8px}
+.tldr li{margin:6px 0 6px 18px}
+section{margin-top:54px}
+.sh{display:flex;align-items:baseline;gap:12px;margin-bottom:18px}
+.sh h2{font-size:28px;letter-spacing:-.02em}.sh span{color:var(--mut);font-size:14px}
+.story{display:flex;gap:18px;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:18px;padding:22px;margin-bottom:16px;
+ transition:transform .2s,box-shadow .2s}
+.story:hover{transform:translateY(-3px);box-shadow:0 10px 40px -12px var(--c)}
+.rank{font:900 54px/1 system-ui;color:var(--c);opacity:.9;min-width:68px;letter-spacing:-.04em}
+.sbody{flex:1;min-width:0}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px}
+.chip{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:99px;background:#ffffff10;color:#c9caf0}
+h3{font-size:22px;line-height:1.25;margin-bottom:8px}
+.what{color:#cfd0ee}
+.meters{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0}
+.meter{display:grid;grid-template-columns:54px 1fr 28px;align-items:center;gap:8px;font-size:11px;color:var(--mut);font-weight:700;letter-spacing:.1em}
+.bar{height:8px;background:#ffffff12;border-radius:9px;overflow:hidden}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--c),#fff8);border-radius:9px;animation:grow 1.2s ease-out}
+.meter.v .bar i{background:linear-gradient(90deg,#ffb020,#ff4d8d)}
+@keyframes grow{from{width:0!important}}
+.meter b{color:#fff;font-size:13px}
+.why{background:#ffffff0a;border-radius:12px;padding:10px 14px;font-size:15px}.why b{color:var(--c);margin-right:6px}
+details{margin-top:12px}summary{cursor:pointer;color:var(--c);font-weight:700;font-size:14px}
+details ul{margin:10px 0 6px 20px;color:#cfd0ee}details li{margin:5px 0}
+.take{margin-top:8px;color:#fff;background:#ffffff0a;padding:10px 14px;border-radius:10px}
+.foot{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px;align-items:center}.sp{flex:1}
+.seen{font-size:11px;padding:3px 9px;border-radius:6px;background:#2ee6a615;color:#2ee6a6;font-weight:700}
+.src{font-size:12px;color:#00e0ff;text-decoration:none;padding:3px 9px;border:1px solid #00e0ff44;border-radius:6px}.src:hover{background:#00e0ff22}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.fcard,.ucard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;position:relative;overflow:hidden}
+.fcard:before,.ucard:before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:var(--c)}
+.ficon,.uemoji{font-size:28px}
+.farea{font-weight:800;margin-top:6px;display:flex;justify-content:space-between}
+.tr{font-style:normal;font-size:12px}.tr.up{color:#2ee6a6}.tr.down{color:#ff4d8d}.tr.flat{color:#ffb020}
+.fstate{color:#fff;margin:6px 0;font-size:15px}.fnote{color:var(--mut);font-size:13px}
+.ucard h4{margin:6px 0 4px}.ucard p{color:#cfd0ee;font-size:14px}
+.ustat{margin:10px 0 6px;font:800 20px system-ui;color:var(--c)}
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.num{border:1px solid var(--line);border-radius:16px;padding:18px;background:var(--card)}
+.num b{display:block;font:900 34px/1.1 system-ui;color:var(--c);letter-spacing:-.03em}.num span{color:var(--mut);font-size:13px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.panel h4{font-size:12px;letter-spacing:.18em;color:#00e0ff;margin-bottom:10px}
+.tools li{list-style:none;display:flex;flex-direction:column;padding:9px 0;border-bottom:1px solid var(--line)}
+.tools li:last-child{border:0}.tools a{color:#fff;text-decoration:none}.tools span{color:var(--mut);font-size:13px}
+.rrow{display:grid;grid-template-columns:1.3fr .7fr 2fr;gap:8px;padding:8px 0;border-bottom:1px solid var(--line);font-size:14px}
+.rn{font-weight:700}.rc{color:#2ee6a6}.rt{color:var(--mut)}
+.try{display:flex;gap:14px;padding:12px 0;border-bottom:1px solid var(--line)}.try:last-child{border:0}
+.try .n{width:30px;height:30px;border-radius:50%;background:linear-gradient(135deg,#7c5cff,#00e0ff);display:grid;place-items:center;font-weight:800;flex:none}
+.try p{color:var(--mut);font-size:14px}
+footer{margin-top:60px;color:var(--mut);font-size:12px;text-align:center}
+@media(max-width:720px){header.hero{grid-template-columns:1fr}.gauge{max-width:160px}.story{flex-direction:column;gap:6px}.rank{font-size:38px}.meters,.two{grid-template-columns:1fr}.rrow{grid-template-columns:1fr 1fr}.rt{grid-column:1/-1}}
+</style></head><body>
+<nav><div class="in"><a class="brand" href="#top">⚡ THE FRIDAY SIGNAL</a><a href="#stories">STORIES</a><a href="#frontier">FRONTIER</a><a href="#usage">IN THE WILD</a><a href="#numbers">NUMBERS</a><a href="#tools">TOOLS</a><a href="#try">TRY THIS</a></div></nav>
+<div class="wrap" id="top">
+<header class="hero"><div>
+  <div class="kicker">ISSUE #1 · Oct 30 – Nov 5, 2026</div>
+  <h1>Anthropic&#x27;s IPO meets the data-center backlash</h1>
+  <p class="sub">Money and politics dominated: Anthropic&#x27;s S-1 laid bare $895B in compute commitments, and voters rejected nearly every data-center measure on the ballot. Meanwhile agents learned to phone, Siri opened up, and Google gated its best model.</p></div>
+<svg viewBox="0 0 140 140" class="gauge">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#00e0ff"/><stop offset=".5" stop-color="#7c5cff"/><stop offset="1" stop-color="#ff4d8d"/></linearGradient></defs>
+  <circle cx="70" cy="70" r="52" fill="none" stroke="#ffffff14" stroke-width="12"/>
+  <circle cx="70" cy="70" r="52" fill="none" stroke="url(#g)" stroke-width="12" stroke-linecap="round"
+    stroke-dasharray="274.4 326.7" transform="rotate(-90 70 70)" class="gring"/>
+  <text x="70" y="72" text-anchor="middle" class="gnum">84</text>
+  <text x="70" y="92" text-anchor="middle" class="glbl">HEAT INDEX</text>
+</svg></header>
+<div class="tldr"><h2>THE 30-SECOND VERSION</h2><ul><li>Anthropic&#x27;s amended S-1: Q3 revenue $17.0B but $895.4B in compute commitments; IPO (Nasdaq: ANT) expected mid/late Nov.</li><li>Voters rejected data centers in all but one of 41 tracked local measures; Democrats projected to take the House.</li><li>Gemini 4 Carbon tops Artificial Analysis (59) but is gated to cyber defenders; Genie 4 world model pairs with Gemini for games and robot training.</li><li>Grok Bot can now phone US businesses for you (you are legally the caller); Apple opens Siri AI to any app in iOS 27.3 betas.</li><li>Google will turn Search/Gemini off for K-12 accounts by default, so AI-free schools lose Search; LinkedIn says AI Engineer is a top-10 fastest-growing job.</li></ul></div>
+<section id="stories"><div class="sh"><h2>🔥 The stories that mattered</h2><span>ranked by impact × buzz</span></div>
+<article class="story" style="--c:#7c5cff">
+  <div class="rank">01</div>
+  <div class="sbody">
+    <div class="tags"><span class="chip">Business</span><span class="chip">Models</span></div>
+    <h3>Anthropic&#x27;s IPO: $17B quarter, $895B compute bill</h3>
+    <p class="what">Anthropic&#x27;s amended S-1 (Nov 2) showed Q3 revenue of $17.0B, up 47% quarter on quarter, but a swing back to a $567M operating loss. Total purchase and lease commitments are $895.4B. It plans to list on Nasdaq under ANT, with no date or price set.</p>
+    <div class="meters">
+      <div class="meter"><span>IMPACT</span><div class="bar"><i style="width:95.0%"></i></div><b>95</b></div>
+      <div class="meter v"><span>BUZZ</span><div class="bar"><i style="width:90.0%"></i></div><b>90</b></div>
+    </div>
+    <div class="why"><b>Why it matters</b> The largest AI-lab listing yet tests whether frontier growth can outrun compute costs, and sets the tone for every AI valuation and hiring wave after it.</div>
+    <details><summary>Deep dive</summary>
+      <ul><li>Q3 revenue $17.0B; growth slowed from 144% (Q2) to 47% QoQ; Q3 operating loss $567M vs $974M profit in Q2 (blamed on $5B costlier short-term compute and a $2B non-cash charge).</li><li>Nine-month net loss $104B on $33.2B revenue, of which $94.3B was non-cash convertible-note charges.</li><li>Commitments $895.4B (about $69.8B due within 12 months) vs $131.8B cash at Sept 30.</li><li>Raise reported at up to ~$100B; valuation not set, some investors reportedly want $1.5-1.6T vs $965B in May&#x27;s private round (press reports, not in the filing).</li><li>Seven co-founders hold 50.1% of votes via a Class F share; Anthropic stays a public benefit corporation.</li></ul>
+      <p class="take"><b>Our take:</b> Token revenue is what pays for AI roles: read the S-1 risk factors for a free look at what labs say they need from engineers.</p>
+    </details>
+    <div class="foot"><span class="seen">The Batch</span><span class="sp"></span><a class="src" href="https://www.euronews.com/2026/11/03/anthropic-swings-back-to-operating-loss-as-895-billion-compute-bill-looms-over-ipo" target="_blank" rel="noopener">Euronews</a><a class="src" href="https://www.stocktitan.net/articles/anthropic-ipo-amended-s1-2026-guide" target="_blank" rel="noopener">Stock Titan</a></div>
+  </div>
+</article>
+<article class="story" style="--c:#00e0ff">
+  <div class="rank">02</div>
+  <div class="sbody">
+    <div class="tags"><span class="chip">Policy</span><span class="chip">Infrastructure</span></div>
+    <h3>Data centers lose at the ballot box</h3>
+    <p class="what">In the Nov 3 midterms, Ballotpedia tracked 41 local data-center measures in 10 states; all but one went against data centers. Democrats campaigning on pausing or regulating them won key races, and the House was projected to flip.</p>
+    <div class="meters">
+      <div class="meter"><span>IMPACT</span><div class="bar"><i style="width:88.0%"></i></div><b>88</b></div>
+      <div class="meter v"><span>BUZZ</span><div class="bar"><i style="width:82.0%"></i></div><b>82</b></div>
+    </div>
+    <div class="why"><b>Why it matters</b> Local opposition and a likely Democratic House raise the cost of the compute buildout every lab (including Anthropic&#x27;s $895B plan) depends on.</div>
+    <details><summary>Deep dive</summary>
+      <ul><li>Edgewater, FL: 77%+ approved a charter ban; Ashville, OH: 81%+ rejected the EdgeConneX deal.</li><li>CNBC poll: 56% of voters called data centers a crucial or major factor.</li><li>Crypto, AI and online-gambling interests put in more than $377M.</li><li>Reported by The Rundown: OpenAI planned to rebrand sites as &#x27;AI compute campuses&#x27; after the election.</li><li>Some counts differ by outlet (38 of 41 reported per Fast Company); final tallies may change.</li></ul>
+      <p class="take"><b>Our take:</b> Power and permitting are becoming the AI bottleneck; infra/energy-aware ML engineering is a differentiator.</p>
+    </details>
+    <div class="foot"><span class="seen">The Rundown AI</span><span class="sp"></span><a class="src" href="https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html" target="_blank" rel="noopener">CNBC</a></div>
+  </div>
+</article>
+<article class="story" style="--c:#ff4d8d">
+  <div class="rank">03</div>
+  <div class="sbody">
+    <div class="tags"><span class="chip">Models</span><span class="chip">Security</span></div>
+    <h3>Gemini 4 Carbon takes #1 - behind a locked door</h3>
+    <p class="what">Google&#x27;s Gemini 4 Carbon scores 59 on Artificial Analysis Intelligence Index v5.0, edging Claude Opus 5.5. It is available only to selected cybersecurity defenders via the Fairwind Program, with no date for wider release.</p>
+    <div class="meters">
+      <div class="meter"><span>IMPACT</span><div class="bar"><i style="width:80.0%"></i></div><b>80</b></div>
+      <div class="meter v"><span>BUZZ</span><div class="bar"><i style="width:78.0%"></i></div><b>78</b></div>
+    </div>
+    <div class="why"><b>Why it matters</b> Frontier labs are gating their strongest models for safety, so public benchmarks increasingly measure things most developers cannot touch.</div>
+    <details><summary>Deep dive</summary>
+      <ul><li>Google cyber figures (self-reported): SEC-bench Pro 88.2%, ExploitGym 54.8%.</li><li>Second on Artificial Analysis Coding Agent Index (59 vs 62 for Opus 5.5 in Claude Code).</li><li>Hallucination rate up from 4% to 11% (still far below the ~50% AA reports for Opus 5.5 and GPT-6 Astra).</li><li>Introductory API price $2 / $10 per million input/output tokens; 1M-token context.</li><li>Critics: Hacker News threads called benchmarks for an unreleased model &#x27;meaningless&#x27;; coding results were measured in Google&#x27;s own Antigravity CLI.</li></ul>
+      <p class="take"><b>Our take:</b> Don&#x27;t chase the #1 name; learn to evaluate models on your own tasks.</p>
+    </details>
+    <div class="foot"><span class="seen">The Batch</span><span class="sp"></span><a class="src" href="https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier" target="_blank" rel="noopener">The Verge</a><a class="src" href="https://rits.shanghai.nyu.edu/ai/gemini-4-carbon-tops-the-index-but-only-cyber-defenders-get-it/" target="_blank" rel="noopener">NYU Shanghai RITS</a></div>
+  </div>
+</article>
+<article class="story" style="--c:#ffb020">
+  <div class="rank">04</div>
+  <div class="sbody">
+    <div class="tags"><span class="chip">Agents</span><span class="chip">Consumer</span></div>
+    <h3>Grok Bot can now call people for you</h3>
+    <p class="what">SpaceXSI&#x27;s Grok Bot agent platform can place calls to US numbers: sit on hold, book appointments, negotiate bills. Users see a live transcript and can type answers the bot relays.</p>
+    <div class="meters">
+      <div class="meter"><span>IMPACT</span><div class="bar"><i style="width:70.0%"></i></div><b>70</b></div>
+      <div class="meter v"><span>BUZZ</span><div class="bar"><i style="width:85.0%"></i></div><b>85</b></div>
+    </div>
+    <div class="why"><b>Why it matters</b> A real-world agent action with legal liability pushed onto the user: it previews the accountability fights coming for all agents.</div>
+    <details><summary>Deep dive</summary>
+      <ul><li>Terms make users the &#x27;caller of record&#x27;, &#x27;solely responsible&#x27; for calls; bots must disclose they are a &#x27;virtual assistant&#x27;.</li><li>Demo: a ~25-minute Comcast call reportedly cut a bill from $84 to $45/month (per Teslarati, not independently verified).</li><li>Musk called the platform&#x27;s cost &#x27;unsustainably high relative to revenue&#x27; amid usage-limit complaints.</li><li>Pricing tiers reported inconsistently between sources; I did not reconcile them.</li></ul>
+      <p class="take"><b>Our take:</b> Voice agents with human-in-the-loop approval are a buildable weekend project.</p>
+    </details>
+    <div class="foot"><span class="seen">The Rundown AI</span><span class="sp"></span><a class="src" href="https://www.therundown.ai/articles/ai-agents-can-now-make-your-phone-calls" target="_blank" rel="noopener">The Rundown</a></div>
+  </div>
+</article>
+<article class="story" style="--c:#2ee6a6">
+  <div class="rank">05</div>
+  <div class="sbody">
+    <div class="tags"><span class="chip">Agents</span><span class="chip">Mobile</span></div>
+    <h3>Apple opens Siri AI to every app</h3>
+    <p class="what">The iOS 27.3 developer betas let any app expose actions to Siri AI through App Intents and Markdown &#x27;skills&#x27;. App Store submissions open in spring; customers wait months.</p>
+    <div class="meters">
+      <div class="meter"><span>IMPACT</span><div class="bar"><i style="width:72.0%"></i></div><b>72</b></div>
+      <div class="meter v"><span>BUZZ</span><div class="bar"><i style="width:66.0%"></i></div><b>66</b></div>
+    </div>
+    <div class="why"><b>Why it matters</b> Apple is loosening its walled garden for agents, creating a new app-integration surface for iOS developers.</div>
+    <details><summary>Deep dive</summary>
+      <ul><li>Skills are Markdown files Siri reads by name/description first, loading the body only when needed (MacStories).</li><li>Testing limited to Xcode and internal TestFlight for now.</li><li>MacStories: skills cannot enforce deterministic behavior; they only give Siri extra information.</li><li>Needs an Apple Intelligence device in English, French, Japanese, Korean, Portuguese or Spanish.</li></ul>
+      <p class="take"><b>Our take:</b> App Intents + Siri skills is an early, under-crowded niche for an iOS portfolio project.</p>
+    </details>
+    <div class="foot"><span class="seen">The Rundown AI</span><span class="sp"></span><a class="src" href="https://www.macstories.net/stories/siri-ais-evolution-is-both-surprising-and-obvious/" target="_blank" rel="noopener">MacStories</a></div>
+  </div>
+</article>
+<article class="story" style="--c:#ff7a45">
+  <div class="rank">06</div>
+  <div class="sbody">
+    <div class="tags"><span class="chip">Policy</span><span class="chip">Education</span></div>
+    <h3>Google: no AI, no Search for K-12 students</h3>
+    <p class="what">Google said K-12 student accounts will have Search, Gemini and Gemini Notebook off until administrators turn them on, with no AI-free Search option. Critics including Lina Khan call it coercion.</p>
+    <div class="meters">
+      <div class="meter"><span>IMPACT</span><div class="bar"><i style="width:62.0%"></i></div><b>62</b></div>
+      <div class="meter v"><span>BUZZ</span><div class="bar"><i style="width:70.0%"></i></div><b>70</b></div>
+    </div>
+    <div class="why"><b>Why it matters</b> It shows Search and AI are now bundled, and schools that want AI-free classrooms lose the web&#x27;s default tool.</div>
+    <details><summary>Deep dive</summary>
+      <ul><li>Education VP Chris Phillips told the NYT that schools that ban AI &#x27;will not have access to search&#x27;.</li><li>Khan: Google is &#x27;using its search monopoly to coerce schools&#x27;; Fairplay&#x27;s Josh Golin said it&#x27;s &#x27;strong-arming&#x27; schools.</li><li>Google says the change gives schools &#x27;more choice, not less&#x27;.</li><li>Rollout start reported as early 2027 (one outlet; AP does not state a date).</li></ul>
+      <p class="take"><b>Our take:</b> Edtech-AI policy is a live field for student-built tools.</p>
+    </details>
+    <div class="foot"><span class="seen">The Rundown AI</span><span class="sp"></span><a class="src" href="https://apnews.com/article/ai-schools-classroom-students-google-7ba4219e505db1c11d672f6eefe7155a" target="_blank" rel="noopener">AP</a></div>
+  </div>
+</article>
+<article class="story" style="--c:#7c5cff">
+  <div class="rank">07</div>
+  <div class="sbody">
+    <div class="tags"><span class="chip">Models</span><span class="chip">Robotics</span></div>
+    <h3>Genie 4 + Gemini: world models for games and robots</h3>
+    <p class="what">DeepMind&#x27;s Genie 4 is a real-time interactive world model with native audio. Gemini models guide it, and DeepMind is experimenting with Gemini 4 Argon plus Genie 4 for robot training.</p>
+    <div class="meters">
+      <div class="meter"><span>IMPACT</span><div class="bar"><i style="width:66.0%"></i></div><b>66</b></div>
+      <div class="meter v"><span>BUZZ</span><div class="bar"><i style="width:60.0%"></i></div><b>60</b></div>
+    </div>
+    <div class="why"><b>Why it matters</b> Simulated environments could cut the cost of training robots and prototyping games, but this is early research.</div>
+    <details><summary>Deep dive</summary>
+      <ul><li>Announced Oct 27; research preview for trusted testers; &#x27;coming soon&#x27; to Google AI Ultra.</li><li>Demos: a UR5 arm with a pipette and Apptronik&#x27;s Apollo humanoid playing checkers.</li><li>DeepMind lists drift, object permanence and long-term consistency as open problems.</li><li>Note: the robot work uses Gemini 4 Argon, not Carbon.</li></ul>
+      <p class="take"><b>Our take:</b> World models are a hot research area for thesis or portfolio topics.</p>
+    </details>
+    <div class="foot"><span class="seen">The Batch</span><span class="sp"></span><a class="src" href="https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/" target="_blank" rel="noopener">Google DeepMind</a></div>
+  </div>
+</article></section>
+<section id="frontier"><div class="sh"><h2>🧭 Where AI is right now</h2><span>the frontier, in one glance</span></div><div class="grid"><div class="fcard" style="--c:#7c5cff"><div class="ficon">🧠</div>
+      <div class="farea">Frontier models<em class="tr up">▲</em></div>
+      <div class="fstate">Gemini 4 Carbon (59, gated), Claude Opus 5.5 (58), GPT-6 Astra</div>
+      <div class="fnote">Artificial Analysis Index v5; the top is separated by about a point.</div></div><div class="fcard" style="--c:#00e0ff"><div class="ficon">🤖</div>
+      <div class="farea">Agents<em class="tr up">▲</em></div>
+      <div class="fstate">Grok Bot phone calls; Siri AI skills; CrowdStrike kill switch</div>
+      <div class="fnote">Agents act in the world, and controls for stopping them are now shipping.</div></div><div class="fcard" style="--c:#ff4d8d"><div class="ficon">🎨</div>
+      <div class="farea">Multimodal<em class="tr up">▲</em></div>
+      <div class="fstate">Genie 4 real-time world model with audio</div>
+      <div class="fnote">Coherent for minutes, not hours; no third-party evals yet.</div></div><div class="fcard" style="--c:#ffb020"><div class="ficon">🦾</div>
+      <div class="farea">Robotics &amp; devices<em class="tr up">▲</em></div>
+      <div class="fstate">Genie 4 + Gemini 4 Argon robot demos</div>
+      <div class="fnote">Exploratory, not shipped; aggregator-reported: Agility Robotics listed on Nasdaq.</div></div><div class="fcard" style="--c:#2ee6a6"><div class="ficon">🔓</div>
+      <div class="farea">Open source<em class="tr flat">■</em></div>
+      <div class="fstate">Kimi K3.1 Pro (AA index 46, per aggregator)</div>
+      <div class="fnote">Leader differs by leaderboard; roughly 12 points behind Opus 5.5 on AA.</div></div><div class="fcard" style="--c:#ff7a45"><div class="ficon">📏</div>
+      <div class="farea">Evals<em class="tr flat">■</em></div>
+      <div class="fstate">OpenAI LifeVal; Artificial Analysis v5.0</div>
+      <div class="fnote">Gated models make public benchmarks harder to verify.</div></div></div></section>
+<section id="usage"><div class="sh"><h2>🌍 How people are really using it</h2><span>beyond the demos</span></div><div class="grid"><div class="ucard" style="--c:#ff4d8d"><div class="uemoji">💼</div>
+      <h4>AI Engineer is a top-10 fastest-growing job</h4><p>LinkedIn says AI Engineer is in the top 10 fastest-growing occupations in seven economies; entry-level AI Engineer hiring grew 68% YoY in the US. No methodology published.</p>
+      <div class="ustat">+68%</div>
+      <a class="src" href="https://ppc.land/linkedin-members-with-ai-literacy-skills-78-more-likely-to-be-hired/" target="_blank" rel="noopener">PPC Land</a></div><div class="ucard" style="--c:#ffb020"><div class="uemoji">📞</div>
+      <h4>Bill negotiation by bot</h4><p>A creator&#x27;s Grok Bot reportedly haggled a Comcast bill down on a 25-minute call (single anecdote).</p>
+      <div class="ustat">$84 to $45</div>
+      <a class="src" href="https://www.therundown.ai/articles/ai-agents-can-now-make-your-phone-calls" target="_blank" rel="noopener">The Rundown</a></div><div class="ucard" style="--c:#2ee6a6"><div class="uemoji">🏛️</div>
+      <h4>Claude + Comet filed a pension claim</h4><p>A Rundown editor used Claude to find the lowest-tax withdrawal route and Perplexity Comet to file the forms; about $2K arrived two weeks later (staff anecdote).</p>
+      <div class="ustat">$2K</div>
+      </div><div class="ucard" style="--c:#ff7a45"><div class="uemoji">🎬</div>
+      <h4>Everyday-task evals</h4><p>OpenAI&#x27;s LifeVal grades models on errands like booking and forms; GPT-6 Astra scores 80.6% vs 49.3% for GPT-5.2 (OpenAI&#x27;s own numbers).</p>
+      <div class="ustat">80.6%</div>
+      </div></div></section>
+<section id="numbers"><div class="sh"><h2>🔢 Numbers of the week</h2></div><div class="nums"><div class="num" style="--c:#7c5cff"><b>$17.0B</b><span>Anthropic Q3 revenue</span></div><div class="num" style="--c:#00e0ff"><b>$895.4B</b><span>Anthropic compute commitments</span></div><div class="num" style="--c:#ff4d8d"><b>40 of 41</b><span>data-center ballot measures that went against data centers</span></div><div class="num" style="--c:#ffb020"><b>59</b><span>Gemini 4 Carbon, Artificial Analysis Index v5</span></div><div class="num" style="--c:#2ee6a6"><b>2M</b><span>jobs LinkedIn says AI helped create</span></div></div></section>
+<section id="tools"><div class="two">
+  <div class="panel tools"><h4>NEW TOOLS & RELEASES</h4><ul><li><a href="https://x.ai/news/introducing-grok-bot" target="_blank" rel="noopener"><b>Grok Bot</b></a><span>Agent platform that now makes phone calls (US numbers)</span></li><li><a href="https://developer.apple.com/news" target="_blank" rel="noopener"><b>Siri AI App Intents</b></a><span>Developer preview of Siri skills in iOS 27.3 betas</span></li><li><a href="https://www.crowdstrike.com/en-us/blog/crowdstrike-introduces-ai-kill-switch/" target="_blank" rel="noopener"><b>CrowdStrike AI Kill Switch</b></a><span>Blocks a rogue agent&#x27;s access to its models via an AI gateway</span></li><li><a href="https://deepmind.google/models/genie/" target="_blank" rel="noopener"><b>Genie 4</b></a><span>Real-time world model, trusted-tester preview</span></li><li><a href="#" target="_blank" rel="noopener"><b>Evaluating and Improving Agentic Applications</b></a><span>New DeepLearning.AI course with Arize on agent evals</span></li></ul></div>
+  <div class="panel"><h4>NEWSLETTER RADAR</h4><div class="rrow"><span class="rn">The Rundown AI</span><span class="rc">5 issues</span><span class="rt">Grok Bot phone calls, Siri AI, data-center backlash</span></div><div class="rrow"><span class="rn">The Batch @ DeepLearning.AI</span><span class="rc">1 issues</span><span class="rt">Anthropic IPO, Gemini 4 Carbon, Genie 4</span></div><div class="rrow"><span class="rn">DeepLearning.AI</span><span class="rc">1 issues</span><span class="rt">Agent evaluation course</span></div></div></div></section>
+<section id="try"><div class="sh"><h2>🧪 Try this weekend</h2><span>picked for you</span></div><div class="panel"><div class="try"><span class="n">1</span><div><b>Build a human-in-the-loop call agent</b><p>Mimic Grok Bot&#x27;s pattern: a transcript plus an approval box before the agent commits. Use any voice API and a mock business line.</p></div></div><div class="try"><span class="n">2</span><div><b>Write a Siri-style skill file</b><p>Write a Markdown skill describing 3 actions for a small app, then test whether an LLM picks the right one from name and description only.</p></div></div><div class="try"><span class="n">3</span><div><b>Read the Anthropic S-1 risk factors</b><p>Spend an hour on the compute-commitment and competition sections, then write a one-page summary for your portfolio blog.</p></div></div></div></section>
+<footer>Compiled Fri Nov 6, 2026 11:00 AST from Gmail: only one of two accounts could be read (the other&#x27;s token expired), so the newsletter radar is partial. Some facts are from search snippets and aggregators; vendor numbers are self-reported..<br>Scores are editorial judgements, not measurements.</footer>
+</div></body></html>
